@@ -1,0 +1,50 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon --watch server --exec babel-node server/index.js",
+    "build-css": "node-sass --watch public/scss -o public/css",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack -p"
+  },
+  "keywords": [],
+  "author": "Ebin",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-core": "6.17.0",
+    "babel-loader": "6.2.5",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-es2015": "6.16.0",
+    "babel-preset-react": "^6.24.1",
+    "css-loader": "0.25.0",
+    "file-loader": "^0.9.0",
+    "html-loader": "0.4.4",
+    "html-webpack-plugin": "2.24.0",
+    "open-browser-webpack-plugin": "0.0.2",
+    "rimraf": "2.5.4",
+    "style-loader": "^0.13.1",
+    "webpack": "^1.13.2",
+    "webpack-dashboard": "0.2.0",
+    "webpack-dev-middleware": "^2.0.5",
+    "webpack-dev-server": "1.16.2",
+    "webpack-hot-middleware": "^2.21.0"
+  },
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "bootstrap": "^4.0.0",
+    "express": "^4.16.2",
+    "node-sass": "^4.7.2",
+    "nodemon": "^1.15.1",
+    "react": "^16.2.0",
+    "react-bootstrap": "^0.32.1",
+    "react-dom": "^16.2.0",
+    "react-hot-loader": "^3.1.3",
+    "react-scroll": "^1.7.7",
+    "react-transition-group": "^2.2.1",
+    "reactstrap": "^5.0.0-beta",
+    "sass-loader": "^6.0.6"
+  }
+}
