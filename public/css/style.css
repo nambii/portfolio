@@ -95,8 +95,8 @@ section h2 {
 }
 
 #mainNav {
-  padding-top: 1rem;
-  padding-bottom: 1rem;
+  /* padding-top: 1rem;
+  padding-bottom: 1rem; */
   font-weight: 700;
   font-family: 'Montserrat';
 }
@@ -140,7 +140,7 @@ section h2 {
     transition: padding-top 0.3s, padding-bottom 0.3s;
   }
   #mainNav .navbar-brand {
-    font-size: 2em;
+    font-size: 1.5em;
     -webkit-transition: font-size 0.3s;
     -moz-transition: font-size 0.3s;
     transition: font-size 0.3s;
@@ -385,7 +385,10 @@ a:focus, a:hover, a:active {
 }
 .false-floater
 {
-   position: sticky; bottom: 0px; right: 0px;
+   position: -webkit-sticky; /* for safari */
+   position: sticky;
+   bottom: 0px;
+   right: 0px;
    float: right;
 }
 .true-floater
@@ -425,4 +428,4 @@ a:focus, a:hover, a:active {
 }
 .my-modal {
     width: 90vw    /* Occupy the 90% of the screen width */
-} 
+}
