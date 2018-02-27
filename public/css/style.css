@@ -383,3 +383,46 @@ a:focus, a:hover, a:active {
   background-color: black;
   border-color: black;
 }
+.false-floater
+{
+   position: sticky; bottom: 0px; right: 0px;
+   float: right;
+}
+.true-floater
+{
+   display: none !important;
+}
+@media(max-width: 720px){
+    .false-floater { display: none !important; }
+}
+.bl
+{
+  color: #111111;
+}
+.sidebar p{
+  font-family: "BLOKKNeue-Regular";
+}
+.sidebar {
+  padding: 20px;
+  width: 170px;
+  background-color: #434A54;
+  color: #fff;
+}
+.sidebar h3 {
+  margin: 0;
+}
+.content,
+.sidebar {
+  float: left;
+}
+
+
+/* The sticky */
+.sidebar {
+  position: -webkit-sticky;
+  position: absolute;
+  bottom: 0px; right: 0px;
+}
+.my-modal {
+    width: 90vw    /* Occupy the 90% of the screen width */
+} 

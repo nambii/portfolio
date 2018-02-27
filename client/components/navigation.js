@@ -22,10 +22,10 @@ export default class Navigation extends React.Component {
         <div className="container">
           <a href="#"><Link activeClass="active" className="test1 navbar-brand " to="test1" spy={true} smooth={true} duration={500} >
           EBIN</Link></a>
-          <button className="navbar-toggler navbar-toggler-right text-uppercase bg-primary text-white rounded collapsed" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-            Menu
-            <i className="fa fa-bars"></i>
-          </button>
+          <button className="navbar-toggler navbar-toggler-right text-uppercase bg-primary text-white rounded" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+        Menu
+        <i className="fa fa-bars"></i>
+      </button>
           <div className="collapse navbar-collapse" id="navbarResponsive">
             <ul className="navbar-nav ml-auto">
             <li className="nav-item mx-0 mx-lg-1">
@@ -39,7 +39,8 @@ export default class Navigation extends React.Component {
 
               </li>
               <li className="nav-item mx-0 mx-lg-1">
-                <a className="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#contact">Contact</a>
+              <a href="#"><Link activeClass="active" className="test3 nav-link py-3 px-0 px-lg-3 rounded" to="test4" spy={true} smooth={true} duration={500} >
+              Contact</Link></a>
               </li>
             </ul>
           </div>
