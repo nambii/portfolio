@@ -59,7 +59,7 @@ export default class Navigation extends React.Component {
                </NavItem>
                <NavItem className="nav-item  mx-0 mx-lg-1">
           <NavLink href="/"> <Link activeClass="active" onClick={this.toggle} className="test4 nav-link py-3 px-0 px-lg-3 rounded" to="test4" spy={true} smooth={true} duration={500} >
-              Contacts
+              Contact
                 </Link></NavLink>
                 </NavItem>
             </Nav>
