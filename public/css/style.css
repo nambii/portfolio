@@ -351,15 +351,7 @@ a:focus, a:hover, a:active {
   width: 200px;
   border-radius: 50%;
 }
-.img_l {
 
-  flex: 1;
-    justifyContent: 'center';
-    alignItems: 'center';
-}
-.modal-header, .modal-footer {
-  text-align: center;
-}
 .bg-secondary {
   background-color: #00222f !important;
 }

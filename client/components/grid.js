@@ -87,14 +87,14 @@ var div5=<div>The objective of the project was to create a multi-server system t
     <h2 className="text-center text-uppercase text-secondary mb-0">Projects</h2>
     <hr className="star-dark mb-5"></hr>
     <div className="row">
-      <div className="col-md-6 col-lg-4" >
+      <div className="col-md-6 col-lg-4 mx-auto" >
         <a className="portfolio-item d-block mx-auto " href="#portfolio-modal-1" onClick={this.toggle.bind(this,'assets/Wakul.jpg',div1)} >
-          <div className="portfolio-item-caption d-flex position-absolute h-100 w-100 " >
-            <div className="portfolio-item-caption-content my-auto w-100 text-center text-white " >
+          <div className="portfolio-item-caption d-flex position-absolute h-100 w-100 mx-auto" >
+            <div className="portfolio-item-caption-content my-auto w-100 text-center text-white mx-auto" >
               <i className="mx-auto text-center">A cloud based web application.</i>
             </div>
           </div>
-          <img className="img-fluid" src="assets/Wakul.jpg"  />
+          <img className="img-fluid mx-auto" src="assets/Wakul.jpg"  />
         </a>
         <div>
 
