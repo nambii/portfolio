@@ -88,13 +88,13 @@ var div5=<div>The objective of the project was to create a multi-server system t
     <hr className="star-dark mb-5"></hr>
     <div className="row">
       <div className="col-md-6 col-lg-4" >
-        <a className="portfolio-item d-block mx-auto " href="#portfolio-modal-1" onClick={this.toggle.bind(this,'assets/wakul.jpeg',div1)} >
+        <a className="portfolio-item d-block mx-auto " href="#portfolio-modal-1" onClick={this.toggle.bind(this,'assets/Wakul.jpg',div1)} >
           <div className="portfolio-item-caption d-flex position-absolute h-100 w-100 " >
             <div className="portfolio-item-caption-content my-auto w-100 text-center text-white " >
               <i className="mx-auto text-center">A cloud based web application.</i>
             </div>
           </div>
-          <img className="img-fluid" src="assets/wakul1.jpeg"  />
+          <img className="img-fluid" src="assets/Wakul.jpg"  />
         </a>
         <div>
 
@@ -103,13 +103,13 @@ var div5=<div>The objective of the project was to create a multi-server system t
       </div>
       <Popup1 ButtonLabel={this.state.modal+' '} show={this.state.modal} tog={this.toggle} image={this.state.image} text={this.state.text}/>
       <div className="col-md-6 col-lg-4">
-        <a className="portfolio-item d-block mx-auto" href="#portfolio-modal-2" onClick={this.toggle.bind(this,'assets/OCR.jpeg',div2)}>
+        <a className="portfolio-item d-block mx-auto" href="#portfolio-modal-2" onClick={this.toggle.bind(this,'assets/OCR.jpg',div2)}>
           <div className="portfolio-item-caption d-flex position-absolute h-100 w-100">
             <div className="portfolio-item-caption-content my-auto w-100 text-center text-white">
               <i className="mx-auto text-center">Character Recognition from Historic Documents</i>
             </div>
           </div>
-          <img className="img-fluid mx-auto text-center" src="assets/OCR.jpeg" alt=""></img>
+          <img className="img-fluid mx-auto text-center" src="assets/OCR.jpg" alt=""></img>
         </a>
       </div>
       <div className="col-md-6 col-lg-4">

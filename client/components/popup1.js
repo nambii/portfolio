@@ -17,9 +17,9 @@ class ModalExample extends React.Component {
     return (
       <div>
       <Modal isOpen={this.props.show} toggle={this.props.tog} className="modal-open" id="portfolio-modal-1" size="lg">
-        <ModalHeader toggle={this.props.tog}><div className="masthead text-white text-center">
+        <ModalHeader toggle={this.props.tog} ><div className="masthead ">
           <div className="container">
-            <img className="img-fluid mb-5 d-block mx-auto " src={this.props.image} alt="avatar"></img>
+            <img className="img_l" src={this.props.image} ></img>
           </div>
           </div></ModalHeader>
         <ModalBody>
@@ -28,7 +28,7 @@ class ModalExample extends React.Component {
           </ModalBody>
         <div className="mx-auto" >
         <ModalFooter >
-          <Button color="secondary" onClick={this.props.tog}>Cancel</Button>
+          <Button color="primary" onClick={this.props.tog}>Cancel</Button>
         </ModalFooter>
         </div>
       </Modal>

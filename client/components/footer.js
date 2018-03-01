@@ -59,8 +59,11 @@ export default class Footer extends React.Component {
               </div>
 
             </div>
+
           </div>
+       <p style={{bottom:"0px"}}>Copyright Ebin Joshy ©2018 -- Made with <span><a class="" href="https://reactjs.org/" target="_blank">React</a></span></p>
         </footer>
+
 </Element>
     );
   }
